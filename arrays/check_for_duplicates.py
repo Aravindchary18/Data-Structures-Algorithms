@@ -1,4 +1,4 @@
-def removing_duplicates(nums):
+def check_for_duplicates(nums):
     seen=set()
     for num in nums:
         if num in seen:
